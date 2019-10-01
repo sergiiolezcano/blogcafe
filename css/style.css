@@ -41,6 +41,12 @@ img{
     margin: 0;
 }
 /**HEADER**/
+@media (min-width:768px) {
+    .barra{
+        display: flex;
+        justify-content: space-between;
+    }
+}
 .site-header{
     background-image: url(../img/banner.jpg);
     background-repeat:no-repeat;
@@ -59,7 +65,19 @@ img{
 .site-header h1 span{
     font-weight: 700;
 }
+/**NAVEGACION**/
 .navegacion a{
     text-align: center;
     display: block;
+    font-size: 1.8rem;
+}
+
+/**TEXTO HEADER**/
+.texto-header{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5rem;
+}
+.texto-header p{
+    font-size: 2.2rem;
 }
